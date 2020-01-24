@@ -1,4 +1,4 @@
-# Xplorer Bootstrap Template
+# Xplorer Login Page using Bootstrap
 
 <img src="img/screenshot.jpg" alt="Screenshot">
 

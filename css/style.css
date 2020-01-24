@@ -1,0 +1,149 @@
+/*------------------------------------------------------------------
+[Main Stylesheet]
+
+Project:    Traveller
+Version:    1.0.0
+-------------------------------------------------------------------*/
+
+/** Global Classes **/
+body {
+	font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+	font-size: 1rem;
+	background-color: #fff;
+}
+
+a, 
+a:hover {
+	color: #3e2051;
+	text-decoration: none;
+}
+
+.form-control:focus {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/** Hero Section **/
+.hero_sct {
+	background: rgba(0, 0, 0, .04) url('../img/duotone.jpg') center no-repeat;
+	background-size: cover;
+	height: 100vh;
+	padding: 3rem 6rem;
+}
+
+.hero_sct .logo img {
+	height: 80px;
+	margin-bottom: 50px;
+}
+
+.hero_txt {
+	max-width: 550px; 
+}
+
+.hero_txt h1 {
+	margin-top: 4rem;
+	font-size: 4rem;
+	line-height: 5rem;
+	color: #fff; 
+	font-weight: bold;
+}
+
+.hero_txt p {
+	font-size: 1.1rem;
+	color: rgba(255, 255, 255, .75);
+	margin-bottom: 200px;
+}
+
+/** Login Section **/
+.login_sct {
+	padding: 3rem 6rem;
+}
+
+.login_wrapper {
+	padding-top: 120px;
+}
+
+.login_sct h4 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 2rem;
+	text-align: center;
+	color: #3e2051;
+}
+
+.login_sct .form-control {
+	padding: 1.7rem 1rem;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	margin-bottom: 2rem;
+	border-color: rgba(112, 112, 112, .75);
+}
+
+.login_sct .form-control:focus {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-color: #3e2051;
+}
+
+.login_sct .login_btn {
+	border-color: #3e2051;
+	padding-top: 1rem;
+	padding-bottom: 1.2rem;
+	background-color: #3e2051;
+}
+
+.login_sct .forgot_link {
+	text-align: right;
+}
+
+.social_links a {
+	position: relative;
+	padding: .6rem 1.2rem;
+	border: rgba(255, 255, 255, 0.85) solid 3px;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+	background-color: #cd5563;
+	color: rgba(255, 255, 255, 0.75);
+	margin-right: 1rem;
+}
+
+.social_links i {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+}
+
+.social_links .facebook i {
+	left: 35%;
+}
+
+.social_links .facebook:hover {
+	background-color: #4267b2;
+}
+
+.social_links .instagram:hover {
+	background-color: #47769b;
+}
+
+.social_links .twitter:hover {
+	background-color: #33ccff;
+}
+
+.social_links .youtube:hover {
+	background-color: #bd081c;
+}
+
+/** Footer Section **/
+.footer {
+	margin-top: 100px;
+	color: #3e2051;
+	text-align: center;
+}

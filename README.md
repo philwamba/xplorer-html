@@ -1,4 +1,4 @@
-# Traveller Bootstrap Template
+# Xplorer Bootstrap Template
 
 <img src="img/screenshot.jpg" alt="Screenshot">
 

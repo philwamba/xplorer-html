@@ -1,0 +1,24 @@
+{
+  "name": "xplorer",
+  "version": "1.0.0",
+  "description": "Xplore bootstrap template",
+  "private": true,
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "serve": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philwamba/xplorer-html.git"
+  },
+  "author": "Phil Wamba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philwamba/xplorer-html/issues"
+  },
+  "homepage": "https://github.com/philwamba/xplorer-html#readme"
+}

@@ -6,6 +6,10 @@ Version:    1.0.0
 -------------------------------------------------------------------*/
 
 /** Global Classes **/
+* {
+	outline: none;
+}
+
 body {
 	font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 	font-size: 1rem;
@@ -24,20 +28,160 @@ a:hover {
     box-shadow: none;
 }
 
+.bg-xplore {
+	background-color: #070309;
+}
+
+.sect_title {
+	color: #fff;
+	font-weight: bold;
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Segoe UI', sans-serif;
 }
 
-/** Hero Section **/
+/** Landing Page - Hero Section **/
+.land_hero {
+	background: linear-gradient(rgba(7,3,9, 0.2), rgb(7,3,9) 700px), linear-gradient(to left, rgba(7,3,9, 0.1) 100%, rgb(7,3,9) 100%), url('../img/kace-rodriguez-p8F32o-S8iA-unsplash.jpg') center no-repeat;
+	background-size: cover;
+	padding: 3rem 6rem;
+}
+
+.land_hero .navbar {
+	margin-bottom: 120px;
+}
+
+.navbar-brand img {
+	height: 60px;
+}
+
+.navbar .nav-item {
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.2rem;
+	padding-left: 2rem;
+}
+
+.about p,
+.xplore p {
+	color: rgba(255, 255, 255, .75);
+}
+
+.about p,
+.xplore p {
+	font-size: 1.2rem;
+}
+
+.about {
+	padding: 30px 0;
+}
+
+.about img {
+	position: absolute;
+	top: -400px;
+}
+
+.about .about_txt {
+	padding-right: 5rem;
+	
+}
+
+.about .about_txt p:last-child {
+	margin-bottom: 4rem;
+}
+
+.about .learn_btn {
+	margin: 0 auto;
+	color: #fff;
+	border-color: #3e2051;
+	padding-top: 1rem;
+	padding-bottom: 1.2rem;
+	background-color: #3e2051;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.xplore {
+	padding: 30px 0;
+}
+
+.xplore .desc {
+	padding-bottom: 50px;
+}
+
+.xplore .gallery {
+	height: 600px;
+	width: 100%;
+	position: relative;
+}
+
+.xplore .gallery .wrapper  {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+}
+
+.xplore .gallery .wrapper img {
+	position: absolute;
+	right: 0;
+}
+
+.xplore .gallery .hori_wrapper img {
+	max-width: 400px;
+}
+
+.xplore .gallery .vert_wrapper img {
+	max-width: 480px;
+}
+
+.xplore .gallery .first {
+	left: 50px;
+	top: -20px;
+	z-index: 1;
+}
+
+.xplore .gallery .second {
+	left: 0px;
+	bottom: 0px;
+	z-index: 2;
+}
+
+.xplore .gallery .third {
+	right: 400px;
+	top: -50px;
+	z-index: 1;
+}
+
+.xplore .gallery .fourth {
+	right: 100px;
+	top: -350px;
+	z-index: 0;
+}
+
+.xplore .gallery .fifth {
+	right: 180px;
+	bottom: -30px;
+	z-index: 2;
+}
+
+.xplore .gallery img:last-child {
+	left: 0;
+}
+
+/** Login Page - Hero Section **/
 .hero_sct {
-	background: rgba(0, 0, 0, .04) url('../img/duotone.jpg') center no-repeat;
+	background: linear-gradient(rgba(37,19,48, 0.2), rgb(37,19,48) 700px), linear-gradient(to left, rgba(37,19,48, 0.1) 100%, rgb(37,19,48) 100%), url('../img/kace-rodriguez-p8F32o-S8iA-unsplash.jpg') center no-repeat;
 	background-size: cover;
 	height: 100vh;
 	padding: 3rem 6rem;
 }
 
 .hero_sct .logo img {
-	height: 80px;
+	height: 60px;
 	margin-bottom: 50px;
 }
 
@@ -54,7 +198,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .hero_txt p {
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	color: rgba(255, 255, 255, .75);
 	margin-bottom: 200px;
 }
@@ -93,24 +237,114 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .login_sct .login_btn {
+	color: #fff;
 	border-color: #3e2051;
 	padding-top: 1rem;
 	padding-bottom: 1.2rem;
 	background-color: #3e2051;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 .login_sct .forgot_link {
 	text-align: right;
 }
 
+.get_updated {
+	padding: 50px 0;
+}
+
+.get_updated .wrapper {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.get_updated .sect_title {
+	text-align: center;
+}
+
+.get_updated p {
+	text-align: center;
+	color: rgba(255, 255, 255, .75);
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+}
+
+.get_updated .form-control {
+	text-align: center;
+	background-color: transparent;
+	border: none;
+	border-bottom: solid 2px rgba(255, 255, 255, .85);
+	margin-bottom: 2rem;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding: 2rem;
+}
+
+.get_updated .update_btn {
+	color: #fff;
+	border-color: #3e2051;
+	padding-top: 1rem;
+	padding-bottom: 1.2rem;
+	background-color: #3e2051;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/** Footer Section **/
+.login_footer {
+	margin-top: 100px;
+	color: #3e2051;
+	text-align: center;
+}
+
+.footer .top {
+	padding: 2rem 0;
+}
+
+.footer .top p {
+	font-size: 1.2rem;
+}
+
+.footer .top p,
+.footer .top h3 {
+	color: #fff;
+}
+
+.footer .top h3 {
+  padding-bottom: 1.5rem;
+}
+
+.footer .top .menu ul > li {
+	margin-bottom: 1rem;
+}
+
+.footer .top .menu ul > li a {
+	color: #fff;
+	font-size: 1.2rem;
+}
+
+.footer .bottom {
+	padding: 1.5rem 0;
+}
+
+.footer .bottom p {
+	color: #fff;
+}
+
 .social_links a {
 	position: relative;
-	padding: .6rem 1.2rem;
+	padding: .55rem 1.2rem;
 	border: rgba(255, 255, 255, 0.85) solid 3px;
 	-moz-border-radius: 100%;
 	-webkit-border-radius: 100%;
 	border-radius: 100%;
-	background-color: #cd5563;
+	background-color: #3e2051;
 	color: rgba(255, 255, 255, 0.75);
 	margin-right: 1rem;
 }
@@ -126,7 +360,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .social_links .facebook:hover {
-	background-color: #4267b2;
+	background-color: #3b5998;
 }
 
 .social_links .instagram:hover {
@@ -141,9 +375,4 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	background-color: #bd081c;
 }
 
-/** Footer Section **/
-.footer {
-	margin-top: 100px;
-	color: #3e2051;
-	text-align: center;
-}
+/** Media Queries **/

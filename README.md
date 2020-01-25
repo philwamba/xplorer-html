@@ -1,6 +1,5 @@
 # Xplorer Bootstrap Template
 
-<img src="img/screenshot.jpg" alt="Screenshot">
 <img src="img/screenshot2.jpg" alt="Screenshot">
 
 ## :book: Todos

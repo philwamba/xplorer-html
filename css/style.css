@@ -47,11 +47,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .land_hero {
 	background: linear-gradient(rgba(7,3,9, 0.2), rgb(7,3,9) 700px), linear-gradient(to left, rgba(7,3,9, 0.1) 100%, rgb(7,3,9) 100%), url('../img/kace-rodriguez-p8F32o-S8iA-unsplash.jpg') center no-repeat;
 	background-size: cover;
-	padding: 3rem 6rem;
+	padding: 2rem 6rem;
+	padding-top: 200px;
 }
 
-.land_hero .navbar {
-	margin-bottom: 120px;
+.navbar {
+	padding: 2rem 0;
+}
+
+.navbar.sticky-nav {
+	background-color: rgba(7,3,9, 0.8);
+	padding: .5rem 0;
 }
 
 .navbar-brand img {
@@ -203,54 +209,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	margin-bottom: 200px;
 }
 
-/** Login Section **/
-.login_sct {
-	padding: 3rem 6rem;
-}
-
-.login_wrapper {
-	padding-top: 120px;
-}
-
-.login_sct h4 {
-	font-size: 1.5rem;
-	font-weight: bold;
-	margin-bottom: 2rem;
-	text-align: center;
-	color: #3e2051;
-}
-
-.login_sct .form-control {
-	padding: 1.7rem 1rem;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-	border-radius: 6px;
-	margin-bottom: 2rem;
-	border-color: rgba(112, 112, 112, .75);
-}
-
-.login_sct .form-control:focus {
-	-moz-box-shadow: none;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	border-color: #3e2051;
-}
-
-.login_sct .login_btn {
-	color: #fff;
-	border-color: #3e2051;
-	padding-top: 1rem;
-	padding-bottom: 1.2rem;
-	background-color: #3e2051;
-	-moz-box-shadow: none;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-}
-
-.login_sct .forgot_link {
-	text-align: right;
-}
-
+/** Subscription Section **/
 .get_updated {
 	padding: 50px 0;
 }
@@ -297,12 +256,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 /** Footer Section **/
-.login_footer {
-	margin-top: 100px;
-	color: #3e2051;
-	text-align: center;
-}
-
 .footer .top {
 	padding: 2rem 0;
 }
@@ -330,6 +283,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .footer .bottom {
+	display: flex;
+	justify-content: space-between;
 	padding: 1.5rem 0;
 }
 
